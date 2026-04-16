@@ -1,0 +1,41 @@
+.message-voice-correction-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message-voice-correction-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.message-voice-correction-participants {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.message-voice-correction-participant {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.message-voice-correction-participant textarea {
+    min-height: 70px;
+    resize: vertical;
+}
+
+.message-voice-correction-status {
+    opacity: 0.8;
+}
+
+#chat .mes .message-voice-correction-action.message-voice-correction-hidden {
+    display: none;
+}
+
+#chat .mes.message-voice-correction-selected {
+    outline: 1px solid var(--SmartThemeBorderColor);
+    outline-offset: -1px;
+}

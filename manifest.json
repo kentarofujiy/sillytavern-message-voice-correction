@@ -1,0 +1,11 @@
+{
+    "display_name": "Message Voice Correction",
+    "loading_order": 21,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "GitHub Copilot",
+    "version": "0.1.0",
+    "homePage": "https://github.com/SillyTavern/SillyTavern"
+}

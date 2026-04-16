@@ -1,0 +1,31 @@
+<div id="message_voice_correction_container" class="message-voice-correction-settings extension_container">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>Message Voice Correction</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content">
+            <div class="message-voice-correction-stack">
+                <label class="checkbox_label" for="message_voice_correction_enabled">
+                    <input id="message_voice_correction_enabled" type="checkbox" />
+                    <span>Enable message correction action</span>
+                </label>
+                <label class="message-voice-correction-field">
+                    <span>Response length</span>
+                    <input id="message_voice_correction_response_length" class="neo-range-slider" type="range" min="100" max="6000" step="100" />
+                    <small id="message_voice_correction_response_length_value"></small>
+                </label>
+                <label class="checkbox_label" for="message_voice_correction_show_prompt_preview">
+                    <input id="message_voice_correction_show_prompt_preview" type="checkbox" />
+                    <span>Show prompt preview in confirmation dialog</span>
+                </label>
+                <div class="message-voice-correction-participants-header">
+                    <strong>Per-participant instructions</strong>
+                    <small>Applied only in this chat/group participant context.</small>
+                </div>
+                <div id="message_voice_correction_participants" class="message-voice-correction-participants"></div>
+                <small id="message_voice_correction_status" class="message-voice-correction-status">Idle</small>
+            </div>
+        </div>
+    </div>
+</div>
